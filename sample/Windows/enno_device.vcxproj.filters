@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{fef1001c-b33a-4d74-badd-03ce188226a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\enno_api">
+      <UniqueIdentifier>{938bb1d7-4b85-4ed4-9854-15c8b264c6b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\azure_umqtt_c">
+      <UniqueIdentifier>{12742117-546a-4138-a7dc-cf53a6d922b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\azure-c-shared-utility">
+      <UniqueIdentifier>{55b8cc3c-2eb8-4c49-9fb7-8cb7b3787490}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\enno_api\enno_api.c">
+      <Filter>src\enno_api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sample_src.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\azure-umqtt-c\src\mqtt_client.c">
+      <Filter>src\azure_umqtt_c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\azure-umqtt-c\src\mqtt_codec.c">
+      <Filter>src\azure_umqtt_c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\azure-umqtt-c\src\mqtt_message.c">
+      <Filter>src\azure_umqtt_c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\azure-umqtt-c\azure-c-shared-utility\src\buffer.c">
+      <Filter>src\azure-c-shared-utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\azure-umqtt-c\azure-c-shared-utility\src\crt_abstractions.c">
+      <Filter>src\azure-c-shared-utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\azure-umqtt-c\azure-c-shared-utility\src\list.c">
+      <Filter>src\azure-c-shared-utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\azure-umqtt-c\azure-c-shared-utility\src\tlsio_openssl.c">
+      <Filter>src\azure-c-shared-utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\azure-umqtt-c\azure-c-shared-utility\src\xio.c">
+      <Filter>src\azure-c-shared-utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\azure-umqtt-c\azure-c-shared-utility\adapters\socketio_win32.c">
+      <Filter>src\azure-c-shared-utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\azure-umqtt-c\azure-c-shared-utility\adapters\tickcounter_win32.c">
+      <Filter>src\azure-c-shared-utility</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\enno_api\enno_api.h">
+      <Filter>src\enno_api</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
