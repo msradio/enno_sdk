@@ -1,0 +1,3 @@
+[submodule "azure-umqtt-c"]
+	path = azure-umqtt-c
+	url = https://github.com/Azure/azure-umqtt-c.git
