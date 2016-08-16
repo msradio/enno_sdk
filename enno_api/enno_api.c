@@ -310,8 +310,8 @@ Error_t enno_connect(ENNO_CLIENT *pClient)
 		else
 		{
 			MQTT_CLIENT_OPTIONS options = { 0 };
-			options.willTopic = "offline";
-			options.willMessage = "offmessage";
+			options.willTopic = NULL;
+			options.willMessage = NULL;
 			options.clientId = pClient->oter;
 			options.username = pClient->deviceid;
 			options.password = pClient->token;
